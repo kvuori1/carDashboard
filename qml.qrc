@@ -14,5 +14,15 @@
         <file>Assets/needlered.png</file>
         <file>Assets/speedo.png</file>
         <file>Assets/tacho.png</file>
+        <file>Assets/oilligh.png</file>
+        <file>Assets/outofgas.png</file>
+        <file>OutOfGasLight.qml</file>
+        <file>OilLight.qml</file>
+        <file>OverHeatLight.qml</file>
+        <file>MotorLight.qml</file>
+        <file>Assets/BlinkersEmpty.png</file>
+        <file>Assets/BlinkersFull.png</file>
+        <file>BlinkerEmpty.qml</file>
+        <file>BlinkerFull.qml</file>
     </qresource>
 </RCC>
