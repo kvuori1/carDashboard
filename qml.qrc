@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Button.qml</file>
+        <file>Tachometer.qml</file>
+        <file>Speedometer.qml</file>
+        <file>Gasmeter.qml</file>
+        <file>Assets/gas.png</file>
+        <file>Assets/Jarruvalo.png</file>
+        <file>Assets/moottorivalo.png</file>
+        <file>Assets/ylikuumeni.png</file>
+        <file>Assets/needleblue.png</file>
+        <file>Assets/needleorange.png</file>
+        <file>Assets/needlered.png</file>
+        <file>Assets/speedo.png</file>
+        <file>Assets/tacho.png</file>
+    </qresource>
+</RCC>
