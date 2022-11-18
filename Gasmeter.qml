@@ -28,7 +28,7 @@ Item {
 
     function durationCalc() {
         if (slowTurn) {
-            return 125   //250 jaettunua kuinka kauan kestää että löbö lobbuuu millisekunneissa
+            return 40   //aika millisekunneissa jaettuna 250, tankillinen kestää 10 sekuntia
         } else {
             return 1000
         }

@@ -252,16 +252,16 @@ Window {
     //Päivitetään löpön tilaa ja arvotaan tuleeko vika valo
     Timer {
         id:fuelStateTimer
-        interval: 1//125   //250 jaettunua kuinka kauan kestää että löbö lobbuuu millisekunneissa
+        interval: 40 //aika millisekunneissa jaettuna 250, tankillinen kestää 10 sekuntia
         running: false
         repeat: true
         onTriggered: {
             //katsotaan on bensaa jäljellä
             if(gasmeter.gasoline > 0) {
-                gasmeter.gasoline = 1
+                gasmeter.gasoline -= 1
                 rand = Math.random() * 616
 
-                if(rand == 0) { //noin 33.38% mahdollisuus tulla per täysi tankki, vian siis
+                if(rand == 0) { //noin 33.38% mahdollisuus tulla per täysi tankki, että tulee vika
                     console.log()
                     fuelStateTimer.running = false
                     startButton.buttonClicked() //painetaan käynnistys nappulaa jotta saadaan moottori pois päältä ja päivitetty muut tilat
